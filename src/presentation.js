@@ -92,6 +92,18 @@ export default class Presentation extends React.Component {
             <Cite>Author</Cite>
           </BlockQuote>
         </Slide>
+        <Slide transition={['zoom']} bgColor="primary">
+          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+            Svelte
+          </Heading>
+          <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
+            The magical disappearing UI framework.
+          </Text>
+          <Text margin="140px 0 0" size={1}>
+            <span style={{ float: 'left' }}>Jeff Shamley</span>
+            <span style={{ float: 'right' }}>@jeff_shamley</span>
+          </Text>
+        </Slide>
       </Deck>
     );
   }
