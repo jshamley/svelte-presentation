@@ -11,7 +11,7 @@ import {
   List,
   Quote,
   Slide,
-  Text,
+  Text
 } from 'spectacle';
 
 // Import theme
@@ -25,11 +25,11 @@ const theme = createTheme(
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
-    quartenary: '#CECECE',
+    quartenary: '#CECECE'
   },
   {
     primary: 'Montserrat',
-    secondary: 'Helvetica',
+    secondary: 'Helvetica'
   }
 );
 
@@ -39,14 +39,17 @@ export default class Presentation extends React.Component {
       <Deck
         transition={['zoom', 'slide']}
         transitionDuration={500}
-        theme={theme}
-      >
+        theme={theme}>
         <Slide transition={['zoom']} bgColor="primary">
           <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            Spectacle Boilerplate
+            Svelte
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            open the presentation/index.js file to get started
+            The magical disappearing UI framework.
+          </Text>
+          <Text margin="140px 0 0" size={1}>
+            <span style={{ float: 'left' }}>Jeff Shamley</span>
+            <span style={{ float: 'right' }}>@jeff_shamley</span>
           </Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
