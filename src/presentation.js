@@ -47,6 +47,7 @@ export default class Presentation extends React.Component {
           <Heading size={4} caps textColor="primary">
             Svelte
           </Heading>
+          <Text>Don't ship your framework...</Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={4} caps textColor="primary">
@@ -67,11 +68,13 @@ export default class Presentation extends React.Component {
           <Heading size={4} caps textColor="primary">
             Svelte
           </Heading>
+          <Text>Scoped CSS!</Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={4} caps textColor="primary">
             Svelte
           </Heading>
+          <Text>Server Side Rendering With Sapper</Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={4} caps textColor="primary">
