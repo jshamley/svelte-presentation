@@ -53,11 +53,8 @@ export default class Presentation extends React.Component {
           <Heading size={4} caps textColor="primary">
             Svelte
           </Heading>
-        </Slide>
-        <Slide transition={['fade']} bgColor="tertiary">
-          <Heading size={4} caps textColor="primary">
-            Svelte
-          </Heading>
+          <Text>Write plain HTML, CSS and JS</Text>
+          <Text>Single file modules</Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={4} caps textColor="primary">
@@ -69,6 +66,12 @@ export default class Presentation extends React.Component {
             Svelte
           </Heading>
           <Text>Scoped CSS!</Text>
+        </Slide>
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={4} caps textColor="primary">
+            Svelte
+          </Heading>
+          <Text>Removal of unused CSS.</Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={4} caps textColor="primary">
