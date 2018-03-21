@@ -60,6 +60,7 @@ export default class Presentation extends React.Component {
           <Heading size={4} caps textColor="primary">
             Svelte
           </Heading>
+          <Text>Compile your code</Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={4} caps textColor="primary">
@@ -98,6 +99,7 @@ export default class Presentation extends React.Component {
           <Heading size={4} caps textColor="primary">
             Svelte
           </Heading>
+          <Text>Questions?</Text>
         </Slide>
 
         <Slide transition={['zoom']} bgColor="primary">
